@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "python3 -I /Users/tiagosantos/git/agent-context/hooks/context_drift.py start", "timeout": 30 } ] }
+    ],
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "python3 -I /Users/tiagosantos/git/agent-context/hooks/context_drift.py stop", "timeout": 30 } ] }
+    ]
+  }
+}
