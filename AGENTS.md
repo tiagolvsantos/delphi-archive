@@ -1,11 +1,5 @@
 # AGENTS.md
 
-## Context map (docs/context/)
-
-* **Session start:** read `docs/context/README.md` (TL;DR, rules, features, decisions) and `docs/context/structure.md`. Ecosystem relationships: `../CLAUDE.md`.
-* **Keep it current:** new folder, domain, convention or rule → update `structure.md` / `README.md` in the same change and bump `Last updated` in `README.md`.
-* `docs/context.md` (Claude Projects primer) is generated from `docs/context/` — rebuild with `/context-refresh primer`, don't edit by hand.
-
 ## Project
 
 `delphi-archive` is the central archive for investment research, quantitative studies, and market analysis supporting the Cerberus ecosystem. It is a data archive, not an application: there is no build, test, or runtime to maintain. See [README.md](README.md) for contents.
